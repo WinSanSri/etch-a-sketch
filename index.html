@@ -5,11 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-A-Sketch - JavaScript</title>
-    <script type="text/JavaScript" src="./etch-a-sketch.js"></script>
+    <script type="text/JavaScript" src="./etch-a-sketch.js" defer></script>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container"></div>
-    
+    <div id="wrapper">
+        <h1>Etch a Sketch</h1>
+        <p>Start drawing by hovering any of the blocks.</p>
+        <div class="top">
+            <button class="rainbow">Rainbow</button>
+            <button class="clear">Clear</button>
+            <button class="new">Custom</button>
+            <input type="text" id="grids-num" placeholder="16">
+        </div>
+        <div class="show-msg"></div>
+        <div class="container"></div>
+    </div>
+    <footer>
+        Designed and created by <a href="https://winsri.tech-alarm.com/" target="_blank">Winnie</a> | <a href="https://github.com/WinSanSri/" target="_blank">GitHub</a>
+    </footer>
 </body>
 </html>
